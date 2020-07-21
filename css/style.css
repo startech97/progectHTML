@@ -180,13 +180,12 @@ h2.title {
     min-height: 550px;
     padding: 102px 0  107px 0;
 }
-.optimization .optimization_header {
+.optimization .optimization_header{
     margin-left: 391px;
     color: #299cbd;
     font-family: "Roboto - Black";
     font-size: 29px;
     font-weight: 400;
-    line-height: 12px;
     text-transform: uppercase;
 }
 .optimization .optimization_text {
@@ -280,3 +279,61 @@ h2.title {
 .gift button {
     margin-top: 56px;
 }
+
+.webinar {
+    min-height: 550px;
+}
+
+.webinar .webinar_img {
+    width: 342px;
+    margin: 0 auto;
+    margin-top: 82px;
+
+}
+
+.webinar .first_webinar {
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 37px;
+}
+.webinar .september {
+    margin-top: 30px;
+    text-align: center;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.webinar .writing {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 26px;
+}
+.footbox {
+    height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 0 0;
+
+}
+.footbox .contacts {
+    margin: 0 auto;
+    width: 377px;
+    height: 36px;
+
+}
+.footbox .contacts .number {
+    text-align: center;
+}
+
+
