@@ -3,6 +3,15 @@
     margin: 0;
     padding: 0;
 }
+/*1)шрифты для всего документа Удаленно с сервера гугл.Подключили в html через линк подключили в css для всего и в селекторах выставляем только font-weight: ;*/
+/* html {
+    font-family: 'Roboto', sans-serif;
+} */
+
+/*2)теперь прописываем для html чтобы подключенные шрифты работали*/
+html {
+    font-family: 'Roboto', sans-serif;
+}
 .container{
     position: relative; /* чтобы абсолютно спозиционировать картинку в блоке*/
     width: 1140px;
@@ -33,19 +42,17 @@
 .title {
     color: #f9bf3b;
     font-size: 41px;
-    font-weight: 400;
     line-height: 24px;
+    font-weight: 900;
     text-transform: uppercase;
-    font-family: "Roboto - Black";
     text-align: center;
 }
 
 .simple .title_big {
     color: #ffffff;
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
-    font-family: "Roboto - Black";
     text-align: center;
     margin-top: 21px;
 }
@@ -67,7 +74,6 @@ h2.title {
     line-height: 28px;
     font-family: "Roboto Light";
     font-weight: 300;
-    font-family: Roboto;
     text-align: center;
     
 }
@@ -88,9 +94,9 @@ h2.title {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     height: 72px;
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    font-family: "Roboto Condensed";
+
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     text-transform: uppercase;
     color: #ffffff;
@@ -105,9 +111,8 @@ h2.title {
 .more .more_text {
     color: #ffffff;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
-    font-family: "Roboto - Thin";
     text-align: center;
 }
 
@@ -125,9 +130,8 @@ h2.title {
 .waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
-    font-family: Roboto;
     text-align: center;
 }
 
@@ -145,9 +149,8 @@ h2.title {
     margin-top: 17px;
     color: #4a4a4a;
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    font-family: Roboto;
 
 }
 
@@ -170,7 +173,6 @@ h2.title {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
     margin-top: 33px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
     line-height: 21px;
@@ -183,16 +185,15 @@ h2.title {
 .optimization .optimization_header{
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
+
     font-size: 29px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 }
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
     color: #4a4a4a;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
@@ -241,7 +242,6 @@ h2.title {
     margin-top: 25px;
     text-align: center;
     color: #efefef;
-    font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
@@ -270,9 +270,8 @@ h2.title {
     margin-top: 46px;
     text-align: center;
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 43px;
 }
 
@@ -293,9 +292,8 @@ h2.title {
 
 .webinar .first_webinar {
     color: #252525;
-    font-family: Roboto;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 12px;
     text-transform: uppercase;
     text-align: center;
@@ -305,18 +303,18 @@ h2.title {
     margin-top: 30px;
     text-align: center;
     color: #299cbd;
-    font-family: "Roboto - Black";
+
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
 
 }
 
 .webinar .writing {
     color: #4a4a4a;
-    font-family: Roboto;
+
     font-size: 23px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     margin-top: 26px;
 }
@@ -326,14 +324,19 @@ h2.title {
     padding: 61px 0 0 0;
 
 }
+a {
+    font-weight: 300;
+    color: #888888;
+}
 .footbox .contacts {
     margin: 0 auto;
-    width: 377px;
-    height: 36px;
+    width: 424px;
+    height: 50px;
 
 }
 .footbox .contacts .number {
     text-align: center;
+    color: #888888;
 }
 
 
