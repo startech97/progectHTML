@@ -1,0 +1,23 @@
+/*создаем font css и подключаем его в html перед стилями
+
+/*1)Локально с компьютера. Скачать файлы поместитьв папку.скопировать с вебфонт веб вставить и переписать пути ../fonts/*/
+/*и чтобы использовать их надо писать фонт фамили как в первой строчке.или исправить вфонт на Roboto и font weight указать необходимый размер. font waight ривяжется к семейству и можно использовать по фонт вейт без указания шрифта*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoMono-Thin.eot');
+    src: url('../fonts/RobotoMono-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoMono-Thin.woff') format('woff'),
+    url('../fonts/RobotoMono-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('../fonts/RobotoSlab-Bold.eot');
+        src: url('../fonts/RobotoSlab-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoSlab-Bold.woff') format('woff'),
+        url('../fonts/RobotoSlab-Bold.ttf') format('truetype');
+        font-weight: 900;
+        font-style: normal;
+        }
